@@ -2,7 +2,8 @@
 
 **Nama:** Nabila Lutfia Sari  
 **NIM:** 312510040  
-**Kelas:** TIA25A Mata Kuliah: Pemrograman Web  
+**Kelas:** TIA25A 
+**Mata Kuliah:** Pemrograman Web  
 
 ---
 
@@ -109,16 +110,3 @@ Lab5Web/
 <img width="224" height="416" alt="Screenshot 2026-10-24 162001" src="https://github.com/user-attachments/assets/e5cdd807-1b68-4dcc-aab6-effdf3bc0f01" />
 
 ---
-
-## 3. Daftar Bukti Tangkapan Layar (Screenshot)
-
-Berikut adalah tabel referensi untuk melampirkan bukti tangkapan layar (SS) dari setiap bagian praktikum:
-
-| Bagian Praktikum | Bukti Tangkapan Layar (SS) |
-| --- | --- |
-| **Latihan 1 - 3** (Output & Console) | `[ ________________________ ]` |
-| **Latihan 4 - 5** (Percabangan) | `[ ________________________ ]` |
-| **Latihan 6** (Genap / Ganjil) | `[ ________________________ ]` |
-| **Latihan 7** (Ubah Warna) | `[ ________________________ ]` |
-| **Latihan 8** (Checkbox Menu) | `[ ________________________ ]` |
-| **Mini Project** (Kalkulator Nilai) | `[ ________________________ ]` |
