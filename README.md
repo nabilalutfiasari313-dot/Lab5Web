@@ -110,3 +110,81 @@ Lab5Web/
 <img width="224" height="416" alt="Screenshot 2026-10-24 162001" src="https://github.com/user-attachments/assets/e5cdd807-1b68-4dcc-aab6-effdf3bc0f01" />
 
 ---
+
+### **Pertanyaan dan Tugas**
+
+* **1. Jelaskan perbedaan `console.log()`, `alert()`, `prompt()`, dan `textContent`/`innerHTML`?**
+* **`console.log()`**: Digunakan untuk mencetak pesan/debugging ke tab Console di browser agar tidak tampil di halaman utama.
+
+
+* **`alert()`**: Memunculkan kotak dialog pop-up peringatan atau informasi singkat kepada pengguna.
+
+
+* **`prompt()`**: Memunculkan kotak dialog interaktif untuk meminta masukan (input teks) dari pengguna.
+
+
+* **`textContent` / `innerHTML**`: Digunakan untuk mengubah teks atau konten elemen HTML secara dinamis di dalam dokumen web.
+
+
+
+
+* **2. Apa perbedaan `let` dan `const`? Berikan contoh.**
+
+
+* **`const`**: Digunakan untuk mendeklarasikan variabel yang nilainya tetap dan **tidak dapat ditetapkan ulang**. Contoh: `const nama = "Rani";`
+
+
+* **`let`**: Digunakan untuk mendeklarasikan variabel yang nilainya **bisa diubah (reassigned)** di kemudian hari. Contoh: `let umur = 20;`
+
+
+
+
+* **3. Apa perbedaan operator `==` dan `===`?**
+* **`==`**: Membandingkan dua nilai setelah melakukan konversi tipe data otomatis (*type coercion*).
+* **`===`**: Membandingkan nilai sekaligus **tipe data secara ketat** tanpa konversi otomatis (harus sama persis tipe dan nilainya).
+
+
+* **4. Jelaskan fungsi `if-else` dan `switch`. Kapan masing-masing dapat digunakan?**
+* **`if-else`**: Digunakan untuk menguji kondisi logis yang bercabang atau berupa rentang nilai (benar/salah).
+
+
+* **`switch`**: Digunakan untuk memilih satu tindakan dari sejumlah nilai spesifik yang sudah pasti (seperti pilihan menu atau opsi angka).
+
+
+
+
+* **5. Apa fungsi parameter dan return dalam function?**
+* **Parameter**: Berfungsi sebagai wadah data masukan (*input*) yang diterima di dalam fungsi.
+
+
+* **`return`**: Berfungsi untuk **mengembalikan hasil akhir** pengolahan data dari dalam fungsi agar bisa digunakan di luar fungsi tersebut.
+
+
+
+
+* **6. Bagaimana JavaScript memilih elemen HTML menggunakan `document.getElementById()`?**
+* JavaScript mencari dan mengambil elemen spesifik dari dokumen HTML berdasarkan nilai atribut **`id`** unik yang dimiliki elemen tersebut, sehingga bisa dimanipulasi isinya.
+
+
+
+
+* **7. Buat script untuk memvalidasi form agar nama tidak kosong dan nilai berada pada rentang 0-100.**
+
+
+* *Contoh kode script validasi:*
+```javascript
+function validasiInput(nama, nilai) {
+    if (!nama || nama.trim() === "") {
+        alert("Nama tidak boleh kosong!");
+        return false;
+    }
+    if (isNaN(nilai) || nilai < 0 || nilai > 100) {
+        alert("Nilai harus berupa angka di antara 0 sampai 100!");
+        return false;
+    }
+    alert("Validasi berhasil!");
+    return true;
+}
+
+```
+---
