@@ -2,8 +2,7 @@
 
 **Nama:** Nabila Lutfia Sari  
 **NIM:** 312510040  
-**Kelas:** TIA25A 
-
+**Kelas:** I253A
 **Mata Kuliah:** Pemrograman Web  
 
 ---
@@ -154,6 +153,7 @@ Jawaban:
 **`textContent` / `innerHTML**`: Digunakan untuk mengubah teks atau konten elemen HTML secara dinamis di dalam dokumen web.
 
 
+
 **2. Apa perbedaan `let` dan `const`? Berikan contoh.**
 
 Jawaban: 
@@ -163,6 +163,7 @@ Jawaban:
 **`let`**: Digunakan untuk mendeklarasikan variabel yang nilainya **bisa diubah (reassigned)** di kemudian hari. Contoh: `let umur = 20;`
 
 
+
 **3. Apa perbedaan operator `==` dan `===`?**
 
 Jawaban: 
@@ -170,6 +171,7 @@ Jawaban:
 **`==`**: Membandingkan dua nilai setelah melakukan konversi tipe data otomatis (*type coercion*).
 
 **`===`**: Membandingkan nilai sekaligus **tipe data secara ketat** tanpa konversi otomatis (harus sama persis tipe dan nilainya).
+
 
 
 **4. Jelaskan fungsi `if-else` dan `switch`. Kapan masing-masing dapat digunakan?**
@@ -182,6 +184,7 @@ Jawaban:
 * **`switch`**: Digunakan untuk memilih satu tindakan dari sejumlah nilai spesifik yang sudah pasti (seperti pilihan menu atau opsi angka).
 
 
+
 **5. Apa fungsi parameter dan return dalam function?**
 
 Jawaban: 
@@ -191,10 +194,12 @@ Jawaban:
 **`return`**: Berfungsi untuk **mengembalikan hasil akhir** pengolahan data dari dalam fungsi agar bisa digunakan di luar fungsi tersebut.
 
 
+
 **6. Bagaimana JavaScript memilih elemen HTML menggunakan `document.getElementById()`?**
 
 Jawaban:
 JavaScript mencari dan mengambil elemen spesifik dari dokumen HTML berdasarkan nilai atribut **`id`** unik yang dimiliki elemen tersebut, sehingga bisa dimanipulasi isinya.
+
 
 
 **7. Buat script untuk memvalidasi form agar nama tidak kosong dan nilai berada pada rentang 0-100.**
